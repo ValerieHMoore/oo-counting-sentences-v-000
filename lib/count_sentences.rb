@@ -27,6 +27,7 @@ class String
     if self.length > 0
       self.split(/\?|\. |!/)
     self.count
+    binding.pry
     else
       0
     end
