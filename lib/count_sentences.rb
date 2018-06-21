@@ -24,10 +24,10 @@ class String
   end
 
   def count_sentences
-    if self.length == 0
-      0
     if self.length > 0
       self.split(/\?|\. |!/)
     self.count
+    else
+      0
   end
 end
