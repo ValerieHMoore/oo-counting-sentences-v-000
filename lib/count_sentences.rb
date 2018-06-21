@@ -27,7 +27,7 @@ class String
     if self.length > 0
       self.split(". ")
       binding.pry
-      self.count
+      self.count(array)
     else
       0
     end
