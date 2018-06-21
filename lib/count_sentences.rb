@@ -28,7 +28,7 @@ class String
       self.split(/\?|\. |!/)
     else
       0
+    binding.pry
     end
   end
 end
-binding.pry
