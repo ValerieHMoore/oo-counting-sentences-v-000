@@ -26,6 +26,7 @@ class String
   def count_sentences
     if self.length > 0
       self.split(". ")
+      self.count
     else
       0
     end
