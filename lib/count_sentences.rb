@@ -29,5 +29,6 @@ class String
     self.count
     else
       0
+    end
   end
 end
