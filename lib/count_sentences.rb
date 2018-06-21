@@ -27,6 +27,6 @@ class String
     new_array = []
     new_array << self.split("." || "?" || "!")
     new_array.join(" ")
-    #new_array.count
+    new_array.count
   end
 end
